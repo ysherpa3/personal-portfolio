@@ -1,15 +1,10 @@
 "use client";
 
-import { useState, type FormEvent, type ChangeEvent } from "react";
+import { useState, type ChangeEvent } from "react";
+import { submitContactForm } from "@/app/actions";
 
 type Fields = { name: string; email: string; message: string };
 type FieldErrors = Partial<Fields>;
-
-function encode(data: Record<string, string>) {
-  return Object.entries(data)
-    .map(([k, v]) => encodeURIComponent(k) + "=" + encodeURIComponent(v))
-    .join("&");
-}
 
 const inputCls =
   "bg-transparent border border-border rounded-xl px-4 py-3 text-sm text-white placeholder:text-dim focus:outline-none focus:border-accent/60 transition-colors duration-200";
@@ -41,7 +36,7 @@ export default function ContactForm() {
     return e;
   }
 
-  async function onSubmit(e: FormEvent) {
+  async function onSubmit(e: { preventDefault(): void }) {
     e.preventDefault();
     const errs = validate();
     if (Object.keys(errs).length) {
@@ -52,12 +47,7 @@ export default function ContactForm() {
     setSubmitting(true);
     setServerError("");
     try {
-      const res = await fetch("/", {
-        method: "POST",
-        headers: { "Content-Type": "application/x-www-form-urlencoded" },
-        body: encode({ "form-name": "contact", ...fields }),
-      });
-      if (!res.ok) throw new Error();
+      await submitContactForm(fields);
       setSubmitted(true);
     } catch {
       setServerError("Hmm, that didn't go through — give it another try?");
