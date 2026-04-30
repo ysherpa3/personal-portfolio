@@ -46,7 +46,7 @@ export default function ContactForm() {
     setSubmitting(true);
     setServerError("");
     try {
-      const res = await fetch("/", {
+      const res = await fetch("/netlify-forms.html", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: new URLSearchParams({
