@@ -8,13 +8,6 @@ const socials = [
 export default function Contact() {
   return (
     <section id="contact" aria-label="Contact" className="py-20 lg:py-32 px-6">
-      {/* Hidden form so Netlify detects it at build time */}
-      <form name="contact" data-netlify="true" hidden aria-hidden="true">
-        <input type="text" name="name" autoComplete="name" />
-        <input type="email" name="email" autoComplete="email" />
-        <textarea name="message" autoComplete="off" />
-      </form>
-
       <div className="max-w-5xl mx-auto">
         {/* CTA card */}
         <div className="relative overflow-hidden border border-border rounded-3xl bg-surface/30">
