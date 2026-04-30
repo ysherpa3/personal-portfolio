@@ -1,7 +1,6 @@
 "use client";
 
 import { useState, type ChangeEvent } from "react";
-import { submitContactForm } from "@/app/actions";
 
 type Fields = { name: string; email: string; message: string };
 type FieldErrors = Partial<Fields>;
@@ -47,7 +46,15 @@ export default function ContactForm() {
     setSubmitting(true);
     setServerError("");
     try {
-      await submitContactForm(fields);
+      const res = await fetch("/", {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams({
+          "form-name": "contact",
+          ...fields,
+        }).toString(),
+      });
+      if (!res.ok) throw new Error("Submission failed");
       setSubmitted(true);
     } catch {
       setServerError("Hmm, that didn't go through — give it another try?");
