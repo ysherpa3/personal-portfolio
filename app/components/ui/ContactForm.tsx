@@ -86,8 +86,11 @@ export default function ContactForm() {
     <form
       onSubmit={onSubmit}
       noValidate
+      name="contact"
+      data-netlify="true"
       className="w-full max-w-lg mx-auto flex flex-col gap-4"
     >
+      <input type="hidden" name="form-name" value="contact" />
       <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
         <div className="flex flex-col gap-1.5">
           <label
