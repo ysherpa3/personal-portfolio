@@ -4,7 +4,7 @@ export default function Hero() {
       aria-label="Introduction"
       className="relative min-h-screen flex flex-col justify-center px-6 overflow-hidden"
     >
-      {/* Warm vignette — decorative */}
+      {/* Warm vignette */}
       <div
         aria-hidden="true"
         className="absolute inset-0 bg-[radial-gradient(ellipse_70%_60%_at_50%_0%,rgba(129,140,248,0.05),transparent)] pointer-events-none"
@@ -40,7 +40,7 @@ export default function Hero() {
         {/* Tagline */}
         <p className="fade-up delay-4 text-sm text-muted max-w-sm sm:max-w-100 leading-loose mb-8 sm:mb-10">
           I&apos;m still figuring things out, but I genuinely love building for
-          the web. HTML, CSS, a bit of React — I&apos;m learning every day and
+          the web. HTML, CSS, a bit of React. I&apos;m learning every day and
           actually enjoying it.
         </p>
 
@@ -67,7 +67,7 @@ export default function Hero() {
         </div>
       </div>
 
-      {/* Scroll indicator — decorative */}
+      {/* Scroll indicator */}
       <div
         aria-hidden="true"
         className="fade-in delay-6 absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2"

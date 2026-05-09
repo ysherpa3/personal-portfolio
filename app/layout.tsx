@@ -18,14 +18,14 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
-  title: "Yogesh Sherpa — Front-End Developer",
+  title: "Yogesh Sherpa - Front-End Developer",
   description:
     "Beginner front-end developer learning to build beautiful web experiences.",
   alternates: { canonical: "/" },
   robots: { index: true, follow: true },
   icons: { icon: "/favicon.svg" },
   openGraph: {
-    title: "Yogesh Sherpa — Front-End Developer",
+    title: "Yogesh Sherpa - Front-End Developer",
     description:
       "Beginner front-end developer learning to build beautiful web experiences.",
     type: "website",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary",
-    title: "Yogesh Sherpa — Front-End Developer",
+    title: "Yogesh Sherpa - Front-End Developer",
     description:
       "Beginner front-end developer learning to build beautiful web experiences.",
   },

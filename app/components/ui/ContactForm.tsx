@@ -29,9 +29,9 @@ export default function ContactForm() {
     if (!fields.name.trim()) e.name = "What should I call you?";
     if (!fields.email.trim()) e.email = "I'll need your email to write back.";
     else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(fields.email))
-      e.email = "That doesn't look like a valid email — double-check?";
+      e.email = "That doesn't look like a valid email. Double-check?";
     if (!fields.message.trim())
-      e.message = "Don't be shy — what's on your mind?";
+      e.message = "Don't be shy. What's on your mind?";
     return e;
   }
 
@@ -57,7 +57,7 @@ export default function ContactForm() {
       if (!res.ok) throw new Error("Submission failed");
       setSubmitted(true);
     } catch {
-      setServerError("Hmm, that didn't go through — give it another try?");
+      setServerError("Hmm, that didn't go through. Give it another try?");
     } finally {
       setSubmitting(false);
     }
@@ -73,7 +73,7 @@ export default function ContactForm() {
       >
         <p className="text-2xl font-bold text-white mb-3">Message sent!</p>
         <p className="text-muted text-sm leading-relaxed">
-          Thanks for reaching out — I&apos;ll get back to you soon.
+          Thanks for reaching out. I&apos;ll get back to you soon.
         </p>
       </div>
     );

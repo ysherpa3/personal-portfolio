@@ -30,7 +30,7 @@ export default function About() {
             </h2>
             <p className="text-muted leading-relaxed mb-4">
               Hey, I&apos;m Yogesh. I started learning web development about 5
-              years ago and honestly, I&apos;m still learning — but that&apos;s
+              years ago and honestly, I&apos;m still learning, but that&apos;s
               kind of the point. I went from copying HTML tutorials to actually
               understanding what I&apos;m writing, and that feels pretty good.
             </p>

@@ -31,7 +31,7 @@ const skills = [
 ];
 
 export const metadata: Metadata = {
-  title: "Resume — Yogesh Sherpa",
+  title: "Resume - Yogesh Sherpa",
   robots: { index: false },
 };
 
@@ -83,7 +83,7 @@ export default function ResumePage() {
         {/* Resume card */}
         <article
           className="cv-card max-w-208 mx-auto bg-surface/20 border border-border rounded-2xl p-10 sm:p-14"
-          aria-label="Yogesh Sherpa — Resume"
+          aria-label="Yogesh Sherpa - Resume"
         >
           {/* ── Header ── */}
           <header className="cv-header flex flex-col sm:flex-row sm:items-start sm:justify-between gap-5 pb-8 border-b border-border">

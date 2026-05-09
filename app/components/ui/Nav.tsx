@@ -41,7 +41,7 @@ export default function Nav() {
       >
         <Link
           href="/"
-          aria-label="Yogesh Sherpa — home"
+          aria-label="Yogesh Sherpa - home"
           className="font-mono text-sm tracking-widest text-white/60 hover:text-white transition-colors duration-200"
         >
           YS

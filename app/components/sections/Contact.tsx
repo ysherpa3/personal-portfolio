@@ -11,12 +11,12 @@ export default function Contact() {
       <div className="max-w-5xl mx-auto">
         {/* CTA card */}
         <div className="relative overflow-hidden border border-border rounded-3xl bg-surface/30">
-          {/* Top accent line — decorative */}
+          {/* Top accent line */}
           <div
             aria-hidden="true"
             className="absolute top-0 inset-x-0 h-px bg-linear-to-r from-transparent via-accent/40 to-transparent"
           />
-          {/* Glow — decorative */}
+          {/* Glow */}
           <div
             aria-hidden="true"
             className="absolute inset-0 bg-[radial-gradient(ellipse_70%_50%_at_50%_0%,rgba(129,140,248,0.06),transparent)] pointer-events-none"
@@ -42,7 +42,7 @@ export default function Contact() {
 
             <ContactForm />
 
-            {/* Divider — decorative */}
+            {/* Divider */}
             <div
               aria-hidden="true"
               className="w-full max-w-xs h-px bg-border mt-12 mb-10"

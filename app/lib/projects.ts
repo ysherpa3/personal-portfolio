@@ -25,9 +25,9 @@ export const projects: Project[] = [
   {
     name: "Weather App",
     description:
-      "A Next.js weather app that shows current conditions, hourly, and 7-day forecasts for any city, powered by the OpenWeatherMap API.",
-    tags: ["React", "TypeScript", "Tailwind CSS", "OpenWeatherMap"],
-    github: "https://github.com/ysherpa3/weather-forecast/",
-    live: "https://ys-weather-forecast.netlify.app/",
+      "A weather app built with React, JavaScript, and Chakra UI. It features location search powered by Algolia and real-time forecasts from the OpenWeatherMap API.",
+    tags: ["React", "JavaScript", "CSS"],
+    github: "https://github.com/ysherpa3/weather-app/",
+    live: "https://ys-weather-app.netlify.app/",
   },
 ];
