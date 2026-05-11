@@ -85,7 +85,7 @@ export default function ResumePage() {
           className="cv-card max-w-208 mx-auto bg-surface/20 border border-border rounded-2xl p-10 sm:p-14"
           aria-label="Yogesh Sherpa - Resume"
         >
-          {/* ── Header ── */}
+          {/* Header */}
           <header className="cv-header flex flex-col sm:flex-row sm:items-start sm:justify-between gap-5 pb-8 border-b border-border">
             <div>
               <h1 className="cv-name text-[2.25rem] font-bold text-white tracking-tight leading-none mb-2">
@@ -114,7 +114,7 @@ export default function ResumePage() {
             </div>
           </header>
 
-          {/* ── Summary ── */}
+          {/* Summary */}
           <section className="cv-rule pt-8 pb-7 border-b border-border">
             <h2 className="cv-label text-[0.65rem] font-mono tracking-[0.18em] uppercase text-accent border-b border-accent/30 pb-2 mb-4 w-fit pr-4">
               Summary
@@ -128,7 +128,7 @@ export default function ResumePage() {
             </p>
           </section>
 
-          {/* ── Skills ── */}
+          {/* Skills */}
           <section className="cv-rule pt-8 pb-7 border-b border-border">
             <h2 className="cv-label text-[0.65rem] font-mono tracking-[0.18em] uppercase text-accent border-b border-accent/30 pb-2 mb-5 w-fit pr-4">
               Skills
@@ -145,7 +145,7 @@ export default function ResumePage() {
             </ul>
           </section>
 
-          {/* ── Projects ── */}
+          {/* Projects */}
           <section className="pt-8">
             <h2 className="cv-label text-[0.65rem] font-mono tracking-[0.18em] uppercase text-accent border-b border-accent/30 pb-2 mb-7 w-fit pr-4">
               Projects
