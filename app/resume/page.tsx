@@ -4,7 +4,7 @@ import PrintButton from "./PrintButton";
 import Link from "next/link";
 
 const highlights: Record<string, string[]> = {
-  "Sherpa Home Improvement App": [
+  "Sherpa Home Improvement": [
     "Built and deployed a contractor lead-gen site using Next.js, Tailwind CSS, and Framer Motion.",
     "Added interactive before/after image slider, lightbox gallery, and validated contact form.",
   ],
