@@ -25,9 +25,9 @@ export const projects: Project[] = [
   {
     name: "Trivia App",
     description:
-      "A trivia app built with React, TypeScript, and Chakra UI. It integrates the Open Trivia DB API to serve randomized questions with category and difficulty filtering.",
-    tags: ["React", "TypeScript", "Chakra UI", "Open Trivia API"],
+      "A trivia app built with Next.js, TypeScript, and Tailwind - powered by Open Trivia Database.",
+    tags: ["Next.js", "TypeScript", "Tailwind CSS", "Open Trivia Database"],
     github: "https://github.com/ysherpa3/trivia-app",
-    live: "https://ys-react-trivia.netlify.app/",
+    live: "https://ys-trivia.netlify.app/",
   },
 ];
