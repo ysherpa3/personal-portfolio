@@ -5,16 +5,16 @@ import Link from "next/link";
 
 const highlights: Record<string, string[]> = {
   "Sherpa Home Improvement": [
-    "Built and deployed a contractor lead-gen site using Next.js, Tailwind CSS, and Framer Motion.",
-    "Added interactive before/after image slider, lightbox gallery, and validated contact form.",
+    "Built a Next.js lead-gen site for a home improvement contractor, deployed on Netlify.",
+    "Implemented before/after drag slider, lightbox gallery, and contact form with validation.",
   ],
   "Weather App": [
-    "Integrated a public weather API to surface real-time forecasts via location search",
-    "Applied mobile-first responsive design with dynamic backgrounds per weather condition",
+    "Built a weather app with Next.js, TypeScript, and OpenWeatherMap API.",
+    "Features city search, hourly/daily forecasts, dark mode, and unit toggling.",
   ],
   "Trivia App": [
-    "Built a trivia quiz app with Next.js and TypeScript that fetches questions from a public API with configurable difficulty and category settings.",
-    "Implemented server-side caching and retry logic to handle API rate limits and ensure reliable question delivery.",
+    "Built a Next.js trivia quiz app with Next.js and TypeScript.",
+    "Added server-side caching and retry logic for a third-party API.",
   ],
 };
 
