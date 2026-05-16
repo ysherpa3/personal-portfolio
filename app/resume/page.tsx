@@ -4,17 +4,17 @@ import PrintButton from "./PrintButton";
 import Link from "next/link";
 
 const highlights: Record<string, string[]> = {
-  "Quiz App": [
-    "Fetched questions from the Open Trivia Database API across multiple categories with score tracking and per-answer feedback",
-    "Practised React state management and reusable component composition",
+  "Sherpa Home Improvement App": [
+    "Built and deployed a contractor lead-gen site using Next.js, Tailwind CSS, and Framer Motion.",
+    "Added interactive before/after image slider, lightbox gallery, and validated contact form.",
   ],
   "Weather App": [
     "Integrated a public weather API to surface real-time forecasts via location search",
     "Applied mobile-first responsive design with dynamic backgrounds per weather condition",
   ],
-  "Recipe Finder": [
-    "Connected to a food API for ingredient-based search, result browsing, and saved favourites",
-    "Reinforced REST API integration and accessible UI layout patterns",
+  "Trivia App": [
+    "Built a trivia quiz app with Next.js and TypeScript that fetches questions from a public API with configurable difficulty and category settings.",
+    "Implemented server-side caching and retry logic to handle API rate limits and ensure reliable question delivery.",
   ],
 };
 
