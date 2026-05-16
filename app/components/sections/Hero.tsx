@@ -11,17 +11,6 @@ export default function Hero() {
       />
 
       <div className="relative max-w-5xl mx-auto w-full">
-        {/* Available badge */}
-        <div className="fade-up delay-1 mb-8 sm:mb-10">
-          <span className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full border border-border bg-surface text-xs font-mono tracking-widest text-muted">
-            <span
-              aria-hidden="true"
-              className="w-1.5 h-1.5 rounded-full bg-accent"
-            />
-            Not taking on projects right now
-          </span>
-        </div>
-
         {/* Name */}
         <h1 className="fade-up delay-2 text-[clamp(2.5rem,9vw,7rem)] font-bold tracking-tight leading-[0.95] mb-5 sm:mb-6">
           <span className="text-white/60 font-light">Hello, I&apos;m</span>
