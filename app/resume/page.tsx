@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const highlights: Record<string, string[]> = {
   "Sherpa Home Improvement": [
-    "Built a Next.js lead-gen site for a home improvement contractor, deployed on Netlify.",
+    "Built a Next.js lead-gen site for a home improvement contractor.",
     "Implemented before/after drag slider, lightbox gallery, and contact form with validation.",
   ],
   "Weather App": [
